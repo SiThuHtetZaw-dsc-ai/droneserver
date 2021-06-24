@@ -16,3 +16,8 @@ steps:
 trigger:
   branch:
   - branch1
+
+trigger:
+  event:
+    include:
+    - push
