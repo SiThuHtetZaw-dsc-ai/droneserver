@@ -16,6 +16,6 @@ steps:
 
 
 trigger:
-  event:
-    include:
-    - push
+  repo:
+    exclude:
+    - DLLdevteamtest/droneserver
